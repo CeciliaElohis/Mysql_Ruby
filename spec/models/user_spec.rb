@@ -21,3 +21,4 @@ RSpec.describe User, type: :model do
     it { should allow_value("a@b.com").for(:email) }
       end
 end
+
